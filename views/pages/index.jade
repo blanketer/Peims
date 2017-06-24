@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+	.container-fluid
+		.row
+			.col-lg-2
+				div(id="sample_nav" data-offset="50" class="scrollspy-example")
+					ul.nav.nav-pills.nav-stacked.nav-inverse
+						each item in samplePoint
+							li.active(role="presentation")
+								a(href="#") #{item.name}
+
+

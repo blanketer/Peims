@@ -1,0 +1,6 @@
+.scrollspy-example {
+  height: body.client.height;
+  overflow: auto;
+  position: relative; 
+  overflow-x: hidden;
+}
